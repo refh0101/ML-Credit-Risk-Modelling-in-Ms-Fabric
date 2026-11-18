@@ -6,9 +6,6 @@ In the modern financial sector, credit risk constitutes one of the most critical
 
 To address this challenge, the renowned German Credit Data is analyzed in this study. The dataset comprises 1,000 entries, where each represents an individual bank loan application classified as either a good or a bad credit risk. The analysis is built upon a comprehensive set of personal and financial indicators, including age, sex, housing status, occupational skill level, checking and saving account balances, alongside the requested loan amount, duration, and purpose. By evaluating these critical attributes, the ultimate objective is to uncover underlying risk patterns and develop a robust predictive model for data-driven financial decision-making.
 
-
-The data is gotten from kaggle link --> https://www.kaggle.com/datasets/kabure/german-credit-data-with-risk
-
 # Aim
 
 - Exploratory Data Analysis (EDA): Discovering data distributions and underlying credit risk patterns.
@@ -16,7 +13,11 @@ The data is gotten from kaggle link --> https://www.kaggle.com/datasets/kabure/g
 - Model Training: Building and comparing multiple classification algorithms (Logistic Regression, Naive Bayes, SVM, and KNN).
 - Evaluation & Insights: Analyzing model performances and determining the most critical features for risk prediction.
 
-## Data Description
+# Dataset
+
+The data is gotten from kaggle link --> https://www.kaggle.com/datasets/kabure/german-credit-data-with-risk
+
+# Data Description
 
 | Variable | Description |
 |---|---|
@@ -32,7 +33,7 @@ The data is gotten from kaggle link --> https://www.kaggle.com/datasets/kabure/g
 | **Risk** | Text: Final credit risk evaluation (**Target variable**: good or bad) |
 
 # Tech Stack
- - Microsoft Fabric
+ - Microsoft Fabric Notebook
 
 # Language
  - Python
